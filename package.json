@@ -1,0 +1,11 @@
+{
+  "name": "flexbox-framework",
+  "version": "0.2",
+  "description": "Flexbox is used extensively in webpage layout thesedays.  Why not have some core flex classes with basic flex properties. Instead of writing lots of flex CSS code all throughout your CSS files.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

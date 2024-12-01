@@ -1,0 +1,170 @@
+
+// Row - flro
+// x 	ce, le, ri, be, ar, st, ev
+// y 	ce, to, bo, st, ba
+
+// Column - flco
+// x 	ce, le, ri, st, ba
+// y 	ce, to, bo, st, be, ar, ev
+
+// ce - center, st-stretch, ba-baseline
+// be-flex-between, ar-flex-around, ev - flex-evenly
+// x - le- left, ri- right
+// y - to- top, bo-bottom
+
+// wrap, nowrap, wrap-reverse
+
+.flro {
+	display: flex;
+	flex-direction: row;
+}
+
+.flco {
+	display: flex;
+	flex-direction: column;
+}
+
+.flrr {
+	display: flex;
+	flex-direction: row;
+}
+
+.flcr {
+	display: flex;
+	flex-direction: column;
+}
+
+.flro.xce,
+.flrr.xce,
+.flco.yce,
+.flcr.yce {
+	justify-content: center;
+}
+
+.flro.xle,
+.flrr.xle,
+.flco.yto,
+.flcr.yto {
+	justify-content: flex-start;
+}
+
+.flro.xri,
+.flrr.xri,
+.flco.ybo,
+.flcr.ybo {
+	justify-content: flex-end;
+}
+
+.flro.xbe,
+.flrr.xbe,
+.flco.ybe,
+.flcr.ybe {
+	justify-content: space-between;
+}
+
+.flro.xar,
+.flrr.xar,
+.flco.yar,
+.flcr.yar {
+	justify-content: space-around;
+}
+
+.flro.xev,
+.flrr.xev,
+.flco.yev,
+.flcr.yev {
+	justify-content: space-evenly;
+}
+
+.flro.xst,
+.flrr.xst,
+.flco.yst,
+.flcr.yst {
+	justify-content: stretch;
+}
+
+.flro.yce,
+.flrr.yce,
+.flco.xce,
+.flcr.xce {
+	align-items: center;
+}
+
+.flro.yto,
+.flrr.yto,
+.flco.xle,
+.flcr.xle {
+	align-items: flex-start;
+}
+
+.flro.ybo,
+.flrr.ybo,
+.flco.xri,
+.flcr.xri {
+	align-items: flex-end;
+}
+
+.flro.yst,
+.flrr.yst,
+.flco.xst,
+.flcr.xst {
+	align-items: stretch;
+}
+
+.flro.yba,
+.flrr.yba,
+.flco.xba,
+.flcr.xba {
+	align-items: baseline;
+}
+
+.flro.xyce,
+.flrr.xyce,
+.flco.xyce,
+.flcr.xyce {
+	justify-content: center;
+	align-items: center;
+}
+
+.flro.wrap,
+.flrr.wrap,
+.flco.wrap,
+.flcr.wrap {
+	flex-wrap: wrap !important;
+}
+
+.flro.nowrap,
+.flrr.nowrap,
+.flco.nowrap,
+.flcr.nowrap {
+	flex-wrap: nowrap !important;
+}
+
+.flro.wrap-reverse,
+.flrr.wrap-reverse,
+.flco.wrap-reverse,
+.flcr.wrap-reverse {
+	flex-wrap: wrap-reverse !important;
+}
+
+.o-flex--1 {
+	flex: 1;
+}
+
+.o-flex--2 {
+	flex: 2;
+}
+
+.o-flex--3 {
+	flex: 3;
+}
+
+.o-flex--4 {
+	flex: 4;
+}
+
+.o-layout-abs-tl {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
