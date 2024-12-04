@@ -1,18 +1,19 @@
+/* Row - flro
+* x 	ce, le, ri, be, ar, st, ev
+* y 	ce, to, bo, st, ba
 
-// Row - flro
-// x 	ce, le, ri, be, ar, st, ev
-// y 	ce, to, bo, st, ba
+* Column - flco
+* x 	ce, le, ri, st, ba
+* y 	ce, to, bo, st, be, ar, ev
 
-// Column - flco
-// x 	ce, le, ri, st, ba
-// y 	ce, to, bo, st, be, ar, ev
+* ce - center, st-stretch, ba-baseline
+* be-flex-between, ar-flex-around, ev - flex-evenly
+* x - le- left, ri- right
+* y - to- top, bo-bottom
 
-// ce - center, st-stretch, ba-baseline
-// be-flex-between, ar-flex-around, ev - flex-evenly
-// x - le- left, ri- right
-// y - to- top, bo-bottom
+* wrap, nowrap, wrap-reverse
 
-// wrap, nowrap, wrap-reverse
+*/
 
 .flro {
 	display: flex;
