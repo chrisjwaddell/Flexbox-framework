@@ -148,23 +148,23 @@
 	flex-wrap: wrap-reverse !important;
 }
 
-.o-flex--1 {
+.flex--1 {
 	flex: 1;
 }
 
-.o-flex--2 {
+.flex--2 {
 	flex: 2;
 }
 
-.o-flex--3 {
+.flex--3 {
 	flex: 3;
 }
 
-.o-flex--4 {
+.flex--4 {
 	flex: 4;
 }
 
-.o-layout-abs-tl {
+.layout-abs-tl {
 	position: absolute;
 	top: 0;
 	left: 0;
