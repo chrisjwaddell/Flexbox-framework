@@ -17,24 +17,22 @@ Why not use it so you can have some core flex CSS classes with basic flex proper
 
 
 
-# Main CSS classes
+## Main CSS classes
 
-Row - flro
-x 	ce, le, ri, be, ar, st, ev
-y 	ce, to, bo, st, ba
+Row - flro \
+x 	ce, le, ri, be, ar, st, ev \
+y 	ce, to, bo, st, ba \
 
-Column - flco
-x 	ce, le, ri, st, ba
+Column - flco \
+x 	ce, le, ri, st, ba \
 y 	ce, to, bo, st, be, ar, ev
 
-ce - center, st-stretch, ba-baseline
-be-flex-between, ar-flex-around, ev - flex-evenly
-x - le- left, ri- right
+ce - center, st-stretch, ba-baseline \
+be-flex-between, ar-flex-around, ev - flex-evenly \
+x - le- left, ri- right \
 y - to- top, bo-bottom
 
 wrap, nowrap, wrap-reverse
-
-
 
 
 
