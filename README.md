@@ -21,7 +21,7 @@ Why not use it so you can have some core flex CSS classes with basic flex proper
 
 Row - flro \
 x 	ce, le, ri, be, ar, st, ev \
-y 	ce, to, bo, st, ba \
+y 	ce, to, bo, st, ba
 
 Column - flco \
 x 	ce, le, ri, st, ba \
