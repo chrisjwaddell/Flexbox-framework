@@ -1,4 +1,11 @@
-# Flexbox Framework
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <img src="images/logo.jpg" alt="Logo" width="100" height="100">
+
+<h1 align="center">Flexbox Framework</h1>
+   <H3 align="center">A simple and small flex framework</h3>
+</div>
 
 Flexbox is used extensively in webpage layout thesedays. It's often the best way to do the base layout of websites. It makes it easy and fast to structure webpages.
 
@@ -28,11 +35,13 @@ x 	ce, le, ri, st, ba \
 y 	ce, to, bo, st, be, ar, ev
 
 ce - center, st-stretch, ba-baseline \
-be-flex-between, ar-flex-around, ev - flex-evenly \
+be - flex-between, ar-flex-around, ev - flex-evenly \
 x - le- left, ri- right \
 y - to- top, bo-bottom
 
 wrap, nowrap, wrap-reverse
+
+
 
 
 
