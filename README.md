@@ -1,4 +1,4 @@
-# FLEXBOX FRAMEWORK
+# Flexbox Framework
 
 Flexbox is used extensively in webpage layout thesedays. It's often the best way to do the base layout of websites. It makes it easy and fast to structure webpages.
 
