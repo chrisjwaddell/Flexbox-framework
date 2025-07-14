@@ -27,12 +27,12 @@
 
 .flrr {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 }
 
 .flcr {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column-reverse;
 }
 
 .flro.xce,
