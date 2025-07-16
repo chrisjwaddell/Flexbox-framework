@@ -11,6 +11,8 @@ Flexbox is used extensively in webpage layout thesedays. It's often the best way
 
 Flex Framework is a simple flex framework with responsive classes to add to your other CSS code. Flexbox framework provides some intuitive CSS classnames that can be used all throughout your code to make flex CSS even easier.
 
+[See a quick demo here](https://codepen.io/chrisjwaddell/full/ByoNEWg)
+
 Why not use it so you can have some core flex CSS classes with basic flex properties that you use often to make up the basic backbone structure of your websites, instead of writing lots of flex CSS code all throughout your CSS files.
 
 
